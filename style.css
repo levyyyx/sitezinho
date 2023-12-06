@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.produtos-lista {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.produtos-lista li {
+    margin: 10px 0;
+}
+
+.produtos-lista a {
+    text-decoration: none;
+    color: #0066cc;
+    font-size: 20px;
+}
+
+.produtos-lista a:hover {
+    color: #004080;
+}
