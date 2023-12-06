@@ -1,35 +1,55 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
-    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.header-bar {
+    background-color: #333;
+    height: 10px;
 }
 
 h1 {
+    text-align: center;
     color: #333;
+    padding: 20px;
+    background-color: #eee;
+    margin-bottom: 0;
 }
 
-ul {
+.product-list {
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Permite que os itens da lista "quebrem" para a próxima linha conforme necessário */
 }
 
 li {
-    margin: 10px;
+    text-align: center;
+    width: 45%; /* Define a largura para permitir dois itens por linha */
+    margin: 10px 0;
+}
+
+.produto-img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
 }
 
 button {
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
-    border: none;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 5px;
     cursor: pointer;
+    width: 100%; /* Faz o botão ocupar 100% da largura do contêiner pai */
 }
 
 button:hover {
