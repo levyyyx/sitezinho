@@ -1,31 +1,37 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+    margin: 20px;
+    text-align: center;
 }
 
 h1 {
-    text-align: center;
     color: #333;
 }
 
-.produtos-lista {
+ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+li {
+    margin: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
     text-align: center;
-}
-
-.produtos-lista li {
-    margin: 10px 0;
-}
-
-.produtos-lista a {
     text-decoration: none;
-    color: #0066cc;
-    font-size: 20px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
 }
 
-.produtos-lista a:hover {
-    color: #004080;
+button:hover {
+    background-color: #45a049;
 }
